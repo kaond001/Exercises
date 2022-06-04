@@ -76,3 +76,20 @@ def primeNumber():
                 print(number, "Number is prime number...")
     else:
         print(number, "Number is not prime number")
+
+
+# Happy birthday Yusuph Kaondo.
+age = 26
+
+
+def happyBirthday():
+    print("New age is Loading....!!")
+    years_old = age  # current years old
+    birthdate = input("Enter Yusuph's birth date:")
+    if birthdate == "04/06/2022":
+        years_old += 1
+        print("Happy birthday Yusuph kaondo")
+        print("Current years old:", years_old)
+        print("...For new age days count...")
+    else:
+        print(birthdate, "This date is not my birthdate")
