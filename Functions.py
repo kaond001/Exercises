@@ -80,8 +80,6 @@ def primeNumber():
 
 # Happy birthday Yusuph Kaondo.
 age = 26
-
-
 def happyBirthday():
     print("New age is Loading....!!")
     years_old = age  # current years old
