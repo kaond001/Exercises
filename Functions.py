@@ -46,6 +46,8 @@ def calculateSum():
 
 def start_string(r):
     for x in range(r):
+        print("r", r)
+        print("x", x)
         print(' ' * (r - x - 1) + '*' * (2 * x + 1))
 
 
@@ -95,3 +97,11 @@ def happyBirthday():
         print(birthdate, "This date is not my birthdate")
 
     return print("***** My current age is ", years_old, " *****")
+
+
+def TemperatureConversion():
+    F = 48.2
+    c = (F - 32) * 5 / 9
+    F=(c * 9/5) + 32
+    print(F)
+    return print(c,F)

@@ -4,7 +4,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.con
 import math
 from Functions import printText, largerString, testLambda, testTernary, calculateSum, start_string, splitString, \
-    palindrome, primeNumber, happyBirthday
+    palindrome, primeNumber, happyBirthday, TemperatureConversion
 
 
 def calculateAvg(myArray):
@@ -198,7 +198,8 @@ def loopTesting():
 # calculate sum
 
 if __name__ == '__main__':
-    happyBirthday()
+    TemperatureConversion()
+    # happyBirthday()
     # primeNumber()
     # palindrome()
     # splitString()
